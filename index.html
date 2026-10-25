@@ -1,189 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portafolio académico de Jhojan Sebastian: proyectos de práctica de diseño web con HTML5 y CSS3.">
-        <title>Jhojan Sebastian | Diseño web</title>
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
-    <body>
-        <a class="skip-link" href="#contenido">Saltar al contenido</a>
-        <!-- La cabecera y el menú se mantienen en las cuatro páginas. -->
-        <header class="site-header">
-            <div class="container header-inner">
-                <a class="brand" href="index.html" aria-label="Jhojan Sebastian, inicio">
-                <span class="brand-mark" aria-hidden="true">JS<span>.</span></span>
-                <span><span class="brand-name">Jhojan Sebastian</span><span class="brand-label">Diseño web</span></span>
-            </a>
-                <nav class="site-nav" aria-label="Navegación principal">
-                    <ul>
-                        <li><a class="is-active" href="index.html" aria-current="page">Inicio</a></li>
-                        <li><a href="portfolio.html">Portafolio</a></li>
-                        <li><a href="presupuesto.html">Presupuesto</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de prácticas de HTML y CSS de Jhojan Sebastian.">
+    <title>Inicio - Mi portafolio</title>
+    <link rel="stylesheet" href="css/estilos.css?v=2">
+</head>
+<body>
+    <div class="pagina">
+        <!-- Cabecera y menú de las cuatro páginas. -->
+        <header>
+            <h1>Mi portafolio web</h1>
+            <p>Jhojan Sebastian Alipour Rivera</p>
         </header>
-        <main id="contenido">
-            <!-- Sección 1: presentación del portafolio. -->
-            <section class="hero">
-                <div class="container hero-grid">
-                    <div class="hero-copy">
-                        <p class="eyebrow"><span aria-hidden="true"></span> Portafolio académico · HTML y CSS</p>
-                        <h1>Diseño web con <em>ideas claras.</em></h1>
-                        <p class="lead">Soy Jhojan Sebastian. Estoy aprendiendo a crear páginas que combinan una estructura sencilla, una buena presentación y atención a los detalles.</p>
-                        <div class="button-group">
-                            <a class="button" href="portfolio.html">Explorar proyectos <span aria-hidden="true">↗</span></a>
-                            <a class="text-link" href="#sobre-mi">Un poco sobre mí <span aria-hidden="true">↓</span></a>
-                        </div>
-                        <p class="hero-note">Aprender. Diseñar. Seguir mejorando.</p>
-                    </div>
-                    <!-- Composición decorativa creada solo con HTML y CSS. -->
-                    <div class="hero-art" aria-hidden="true">
-                        <div class="art-label">UNA IDEA, MUCHAS POSIBILIDADES</div>
-                        <div class="browser-window">
-                            <div class="browser-chrome">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <i>un nuevo proyecto</i>
-                            </div>
-                            <div class="demo-stage">
-                                <div class="demo-nav">
-                                    <strong>FORMA.</strong>
-                                    <span>estudio creativo</span>
-                                </div>
-                                <div class="demo-heading">El espacio<br>para tus ideas<span>.</span></div>
-                                <div class="demo-bottom">
-                                    <span>Diseño con intención</span>
-                                    <span>↗</span>
-                                </div>
-                                <div class="demo-shape shape-one"></div>
-                                <div class="demo-shape shape-two"></div>
-                                <div class="demo-shape shape-three"></div>
-                            </div>
-                        </div>
-                        <div class="art-caption">
-                            <span>01 / DISEÑO EN CONSTRUCCIÓN</span>
-                            <strong>HTML5 + CSS3</strong>
-                        </div>
-                    </div>
-                </div>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html" class="activo" aria-current="page">Inicio</a></li>
+                <li><a href="portfolio.html">Portafolio</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <!-- Inicio: presentación, aprendizaje y ejercicios. -->
+            <section>
+                <h2>Bienvenido a mi página</h2>
+                <p>Hola, soy Jhojan. Estoy estudiando diseño web y he preparado este portafolio para el trabajo final de HTML y CSS.</p>
+                <p>Desde el menú puedes ver mis ejercicios, probar el formulario y consultar la página de contacto.</p>
             </section>
-            <!-- Sección 2: información personal sin atribuir experiencia profesional. -->
-            <section class="section about-section" id="sobre-mi">
-                <div class="container two-column">
-                    <div>
-                        <p class="section-kicker">01 / Sobre mí</p>
-                        <h2>Aprender haciendo,<br>cuidar cada detalle.</h2>
-                    </div>
-                    <div class="about-copy">
-                        <p>Me llamo Jhojan Sebastian Alipour Rivera y estoy formándome en diseño web. Este sitio reúne propuestas y ejercicios con los que practico HTML y CSS.</p>
-                        <p>Me interesa cómo una buena organización del contenido, los colores y la tipografía pueden hacer que una página sea más fácil de entender y de utilizar.</p>
-                        <ul class="skills-list" aria-label="Temas que practico">
-                            <li>Estructura HTML5</li>
-                            <li>Estilos CSS3</li>
-                            <li>Diseño adaptable</li>
-                            <li>Formularios</li>
-                        </ul>
-                    </div>
-                </div>
+
+            <section>
+                <h3>Sobre mí</h3>
+                <p>Me interesa aprender a crear páginas web. De momento estoy practicando la estructura de HTML y las propiedades básicas de CSS.</p>
+                <p>En esta web he organizado los contenidos en cuatro páginas y he utilizado una misma hoja de estilos para todas.</p>
             </section>
-            <!-- Sección 3: una selección de las propuestas académicas de la galería. -->
-            <section class="section" aria-labelledby="titulo-proyectos">
-                <div class="container">
-                    <div class="section-heading">
-                        <div>
-                            <p class="section-kicker">02 / Proyectos de práctica</p>
-                            <h2 id="titulo-proyectos">Del boceto a la pantalla.</h2>
-                        </div>
-                        <a class="text-link" href="portfolio.html">Ver el portafolio <span aria-hidden="true">↗</span></a>
-                    </div>
-                    <div class="featured-grid">
-                        <article class="project-card">
-                            <a class="project-image" href="portfolio.html#cafeteria"><img src="img/proyecto-cafeteria.svg" alt="Propuesta de una página para una cafetería con menú y presentación" width="900" height="640" loading="lazy"></a>
-                            <div class="project-caption">
-                                <div>
-                                    <p>01 / Diseño de página</p>
-                                    <h3>Una pausa, un café</h3>
-                                </div>
-                                <span aria-hidden="true">↗</span>
-                            </div>
-                        </article>
-                        <article class="project-card">
-                            <a class="project-image" href="portfolio.html#estudio"><img src="img/proyecto-estudio.svg" alt="Propuesta de una web de estudio creativo con composición geométrica" width="900" height="640" loading="lazy"></a>
-                            <div class="project-caption">
-                                <div>
-                                    <p>02 / Composición visual</p>
-                                    <h3>Estudio Forma</h3>
-                                </div>
-                                <span aria-hidden="true">↗</span>
-                            </div>
-                        </article>
-                        <article class="project-card">
-                            <a class="project-image" href="portfolio.html#galeria"><img src="img/proyecto-galeria.svg" alt="Propuesta de galería de imágenes organizada en una cuadrícula" width="900" height="640" loading="lazy"></a>
-                            <div class="project-caption">
-                                <div>
-                                    <p>03 / Galería de imágenes</p>
-                                    <h3>Miradas en orden</h3>
-                                </div>
-                                <span aria-hidden="true">↗</span>
-                            </div>
-                        </article>
-                    </div>
-                    <p class="section-note">Propuestas ficticias para practicar diseño y maquetación. No representan encargos de clientes.</p>
-                </div>
+
+            <section>
+                <h3>Qué estoy aprendiendo</h3>
+                <ul>
+                    <li>Crear títulos, párrafos, listas y tablas.</li>
+                    <li>Añadir imágenes y enlaces entre páginas.</li>
+                    <li>Cambiar los colores, los bordes y el formato del texto.</li>
+                    <li>Hacer formularios con campos obligatorios.</li>
+                </ul>
             </section>
-            <!-- Sección 4: proceso de trabajo utilizado en los ejercicios. -->
-            <section class="section process-section">
-                <div class="container">
-                    <p class="section-kicker">03 / Mi forma de trabajar</p>
-                    <h2>Primero la idea. Después, el código.</h2>
-                    <ol class="process-list">
-                        <li><span>01</span><div><h3>Organizar</h3><p>Definir qué necesita la página y ordenar sus secciones antes de empezar.</p></div></li>
-                        <li><span>02</span><div><h3>Diseñar</h3><p>Elegir colores, imágenes y tipos de letra que acompañen al contenido.</p></div></li>
-                        <li><span>03</span><div><h3>Comprobar</h3><p>Revisar enlaces, formularios y distintas pantallas, y validar el HTML.</p></div></li>
-                    </ol>
-                    <div class="closing-line">
-                        <p>¿Quieres plantear una idea para una web?</p>
-                        <a class="button button-secondary" href="presupuesto.html">Consultar un proyecto <span aria-hidden="true">↗</span></a>
-                    </div>
-                </div>
+
+            <section>
+                <h3>Mis ejercicios</h3>
+                <p>La galería contiene ejemplos sencillos de tablas, listas, textos y bordes. Son prácticas de aprendizaje.</p>
+                <a class="boton" href="portfolio.html">Ver el portafolio</a>
             </section>
         </main>
-        <!-- Pie común: dirección de ejemplo, redes y documentos informativos. -->
-        <footer class="site-footer">
-            <div class="container footer-grid">
-                <div>
-                    <p class="footer-title">Jhojan Sebastian<span>.</span></p>
-                    <p>Diseño web · HTML y CSS</p>
-                    <p class="footer-note">Portafolio académico en construcción.</p>
-                </div>
-                <div>
-                    <p class="footer-title footer-small">Contacto de ejemplo</p>
-                    <p>Calle del Diseño, 12 · Madrid</p>
-                    <a href="mailto:jhojan@example.com">jhojan@example.com</a>
-                    <p class="footer-note">Datos ficticios para el ejercicio.</p>
-                </div>
-                <div>
-                    <p class="footer-title footer-small">En la red</p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram, página general en una nueva pestaña"><img src="img/instagram.svg" alt="" width="22" height="22"></a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn, página general en una nueva pestaña"><img src="img/linkedin.svg" alt="" width="22" height="22"></a>
-                        <a href="https://github.com/Shayan94108" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Jhojan, nueva pestaña"><img src="img/github.svg" alt="" width="22" height="22"></a>
-                    </div>
-                    <p class="footer-note">Instagram y LinkedIn enlazan a sus páginas generales.</p>
-                </div>
+
+        <!-- Pie de página: redes, dirección y aviso legal. -->
+        <footer>
+            <p><strong>Datos de contacto de ejemplo</strong></p>
+            <p>Calle del Diseño, 12, Madrid · jhojan@example.com</p>
+            <div class="redes">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="img/instagram.svg" alt="Instagram" width="24" height="24"></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="img/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>
+                <a href="https://github.com/Shayan94108" target="_blank" rel="noopener noreferrer"><img src="img/github.svg" alt="GitHub" width="24" height="24"></a>
             </div>
-            <div class="container footer-bottom">
-                <p>© 2026 Jhojan Sebastian · Proyecto de formación</p>
-                <div>
-                    <a href="contacto.html#aviso-legal">Aviso legal</a>
-                    <a href="contacto.html#privacidad">Política de privacidad</a>
-                </div>
-            </div>
+            <p><a href="contacto.html#aviso-legal">Aviso legal</a> | <a href="contacto.html#privacidad">Política de privacidad</a></p>
+            <p>Trabajo final de HTML/CSS · 2026</p>
         </footer>
-    </body>
+    </div>
+</body>
 </html>

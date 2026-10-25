@@ -1,112 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Datos de contacto de ejemplo, mapa esquemático y textos informativos del portafolio académico de Jhojan Sebastian, estudiante de diseño web.">
-        <title>Contacto | Jhojan Sebastian · Diseño web</title>
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
-    <body>
-        <a class="skip-link" href="#contenido">Saltar al contenido</a>
-        <!-- Cabecera y navegación comunes a todas las páginas. -->
-        <header class="site-header">
-            <div class="container header-inner">
-                <a class="brand" href="index.html" aria-label="Jhojan Sebastian, inicio">
-                <span class="brand-mark" aria-hidden="true">JS<span>.</span></span>
-                <span><span class="brand-name">Jhojan Sebastian</span><span class="brand-label">Diseño web</span></span>
-            </a>
-                <nav class="site-nav" aria-label="Navegación principal">
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="portfolio.html">Portafolio</a></li>
-                        <li><a href="presupuesto.html">Presupuesto</a></li>
-                        <li><a class="is-active" href="contacto.html" aria-current="page">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Datos de contacto ficticios, mapa de ejemplo y aviso legal del proyecto.">
+    <title>Contacto - Mi portafolio</title>
+    <link rel="stylesheet" href="css/estilos.css?v=2">
+</head>
+<body>
+    <div class="pagina">
+        <!-- Cabecera y menú de las cuatro páginas. -->
+        <header>
+            <h1>Mi portafolio web</h1>
+            <p>Jhojan Sebastian Alipour Rivera</p>
         </header>
-        <main id="contenido">
-            <section class="page-intro">
-                <div class="container">
-                    <p class="eyebrow">Un espacio para conectar</p>
-                    <h1>Contacto</h1>
-                    <p class="lead">Aquí reúno los datos de ejemplo y la ubicación ficticia de este portafolio. Forman parte del proyecto de clase y no corresponden a un establecimiento real.</p>
-                </div>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="portfolio.html">Portafolio</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html" class="activo" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Contacto</h2>
+            <p>Para este ejercicio he utilizado los siguientes datos de ejemplo:</p>
+
+            <section>
+                <h3>Datos de contacto</h3>
+                <p><strong>Nombre:</strong> Jhojan Sebastian Alipour Rivera</p>
+                <p><strong>Dirección ficticia:</strong> Calle del Diseño, 12, Madrid</p>
+                <p><strong>Email de ejemplo:</strong> <a href="mailto:jhojan@example.com">jhojan@example.com</a></p>
+                <p><strong>Teléfono de ejemplo:</strong> +34 600 000 000</p>
             </section>
-            <section class="section" aria-labelledby="titulo-contacto">
-                <div class="container contact-grid">
-                    <div class="contact-details">
-                        <p class="section-kicker">Datos de ejemplo</p>
-                        <h2 id="titulo-contacto">Jhojan Sebastian · Diseño web</h2>
-                        <p>Estudiante de diseño web y autor de las prácticas presentadas en este sitio.</p>
-                        <address>
-                            <p><strong>Dirección ficticia</strong><br>Calle del Diseño, 12 · Madrid</p>
-                            <p><strong>Email de ejemplo</strong><br><a href="mailto:jhojan@example.com">jhojan@example.com</a></p>
-                            <p><strong>Teléfono de ejemplo</strong><br><a href="tel:+34600000000">+34 600 000 000</a></p>
-                        </address>
-                        <p class="form-note">Estos datos sirven para mostrar el diseño de una página de contacto. No constituyen un canal de atención real.</p>
-                        <a class="button" href="presupuesto.html">Probar el formulario</a>
-                    </div>
-                    <!-- El mapa es una imagen local y representa una ubicación ficticia. -->
-                    <figure class="contact-map">
-                        <img class="map-frame" src="img/mapa-contacto.png" alt="Mapa esquemático ficticio con un marcador en Calle del Diseño, 12, Madrid. No sirve para orientarse en calles reales." width="1000" height="700" loading="lazy">
-                        <figcaption>Ubicación de ejemplo: Calle del Diseño, 12 · Madrid. Esquema ficticio sin escala.</figcaption>
-                    </figure>
-                </div>
+
+            <section>
+                <h3>Mapa de ubicación</h3>
+                <img class="mapa" src="img/mapa-contacto.png" alt="Mapa de ejemplo con un marcador en la dirección ficticia Calle del Diseño, 12" width="1000" height="700">
+                <p class="ayuda">El mapa es un esquema ficticio para el trabajo. No representa calles reales.</p>
             </section>
-            <!-- Textos informativos del proyecto académico, accesibles desde el pie. -->
-            <section class="section legal-section" id="aviso-legal" aria-labelledby="titulo-aviso-legal">
-                <div class="container">
-                    <p class="section-kicker">Información del sitio</p>
-                    <h2 id="titulo-aviso-legal">Aviso legal</h2>
-                    <p>Este sitio es un trabajo académico de Jhojan Sebastian Alipour Rivera para practicar HTML5 y CSS3. Los proyectos del portafolio son ejercicios de aprendizaje. No se presentan como encargos profesionales de clientes reales.</p>
-                    <p>Los datos de contacto, la dirección y la ubicación del mapa son ficticios. La página no ofrece contratación ni gestiona solicitudes comerciales. Los nombres y contenidos de ejemplo se utilizan para mostrar la estructura y el diseño de una web.</p>
-                    <p>Los enlaces a Instagram y LinkedIn dirigen a las páginas generales de esas plataformas. El enlace de GitHub conduce al perfil público indicado en el proyecto.</p>
-                </div>
+
+            <section id="aviso-legal">
+                <h3>Aviso legal</h3>
+                <p>Esta página es un trabajo de prácticas de HTML y CSS de Jhojan Sebastian Alipour Rivera. Los datos de contacto y la dirección son ficticios.</p>
+                <p>Las imágenes de la galería muestran ejemplos de ejercicios. Los enlaces de Instagram y LinkedIn llevan a sus páginas generales.</p>
             </section>
-            <section class="section legal-section" id="privacidad" aria-labelledby="titulo-privacidad">
-                <div class="container">
-                    <p class="section-kicker">Uso del formulario de prueba</p>
-                    <h2 id="titulo-privacidad">Política de privacidad</h2>
-                    <p>El formulario de presupuesto es una demostración académica de validación HTML5. Utiliza únicamente datos ficticios al probarlo. Los campos obligatorios y el checkbox de aceptación permiten comprobar la validación del navegador.</p>
-                    <p>Al continuar, los valores de prueba se añaden a la dirección de la página. No se envía ningún correo ni existe un servicio de gestión de presupuestos o una base de datos propia de este proyecto.</p>
-                    <p>El alojamiento y las plataformas externas pueden tratar información técnica de las visitas conforme a sus propias políticas. Estos textos describen esta demostración y no constituyen una política preparada para una actividad comercial real.</p>
-                    <p><a href="presupuesto.html">Volver al formulario de prueba</a></p>
-                </div>
+
+            <section id="privacidad">
+                <h3>Política de privacidad</h3>
+                <p>El formulario sirve para practicar la validación de HTML5. Utiliza datos ficticios al rellenarlo.</p>
+                <p>Los valores de prueba aparecen en la dirección de la página al continuar. Este proyecto no tiene base de datos ni servicio para recibir solicitudes. El alojamiento puede registrar datos técnicos de las visitas.</p>
             </section>
         </main>
-        <!-- Pie común: datos ficticios, redes y acceso a los textos informativos. -->
-        <footer class="site-footer">
-            <div class="container footer-grid">
-                <div>
-                    <p class="footer-title">Jhojan Sebastian<span>.</span></p>
-                    <p>Diseño web · HTML y CSS</p>
-                    <p class="footer-note">Portafolio académico en construcción.</p>
-                </div>
-                <div>
-                    <p class="footer-title footer-small">Contacto de ejemplo</p>
-                    <p>Calle del Diseño, 12 · Madrid</p>
-                    <a href="mailto:jhojan@example.com">jhojan@example.com</a>
-                    <p class="footer-note">Datos ficticios para el ejercicio.</p>
-                </div>
-                <div>
-                    <p class="footer-title footer-small">En la red</p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram, página general en una nueva pestaña"><img src="img/instagram.svg" alt="" width="22" height="22"></a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn, página general en una nueva pestaña"><img src="img/linkedin.svg" alt="" width="22" height="22"></a>
-                        <a href="https://github.com/Shayan94108" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Jhojan, nueva pestaña"><img src="img/github.svg" alt="" width="22" height="22"></a>
-                    </div>
-                    <p class="footer-note">Instagram y LinkedIn enlazan a sus páginas generales.</p>
-                </div>
+
+        <!-- Pie de página: redes, dirección y aviso legal. -->
+        <footer>
+            <p><strong>Datos de contacto de ejemplo</strong></p>
+            <p>Calle del Diseño, 12, Madrid · jhojan@example.com</p>
+            <div class="redes">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="img/instagram.svg" alt="Instagram" width="24" height="24"></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="img/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>
+                <a href="https://github.com/Shayan94108" target="_blank" rel="noopener noreferrer"><img src="img/github.svg" alt="GitHub" width="24" height="24"></a>
             </div>
-            <div class="container footer-bottom">
-                <p>© 2026 Jhojan Sebastian · Proyecto de formación</p>
-                <div>
-                    <a href="contacto.html#aviso-legal">Aviso legal</a>
-                    <a href="contacto.html#privacidad">Política de privacidad</a>
-                </div>
-            </div>
+            <p><a href="contacto.html#aviso-legal">Aviso legal</a> | <a href="contacto.html#privacidad">Política de privacidad</a></p>
+            <p>Trabajo final de HTML/CSS · 2026</p>
         </footer>
-    </body>
+    </div>
+</body>
 </html>

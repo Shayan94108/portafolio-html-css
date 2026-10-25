@@ -1,147 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Galería de propuestas académicas de Jhojan Sebastian: composiciones web, imágenes, tipografía y formularios con HTML y CSS.">
-        <title>Portafolio | Jhojan Sebastian</title>
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
-    <body>
-        <a class="skip-link" href="#contenido">Saltar al contenido</a>
-        <header class="site-header">
-            <div class="container header-inner">
-                <a class="brand" href="index.html" aria-label="Jhojan Sebastian, inicio"><span class="brand-mark" aria-hidden="true">JS<span>.</span></span><span><span class="brand-name">Jhojan Sebastian</span><span class="brand-label">Diseño web</span></span></a>
-                <nav class="site-nav" aria-label="Navegación principal">
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a class="is-active" href="portfolio.html" aria-current="page">Portafolio</a></li>
-                        <li><a href="presupuesto.html">Presupuesto</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galería con ejemplos sencillos de tablas, listas, textos y bordes.">
+    <title>Portafolio - Mi portafolio</title>
+    <link rel="stylesheet" href="css/estilos.css?v=2">
+</head>
+<body>
+    <div class="pagina">
+        <!-- Cabecera y menú de las cuatro páginas. -->
+        <header>
+            <h1>Mi portafolio web</h1>
+            <p>Jhojan Sebastian Alipour Rivera</p>
         </header>
-        <main id="contenido">
-            <section class="page-intro">
-                <div class="container">
-                    <p class="eyebrow">Portafolio / Proyectos de práctica</p>
-                    <h1>Ideas que<br><em>toman forma.</em></h1>
-                    <p class="lead">Una selección de propuestas ficticias para explorar la composición, la tipografía y la organización de una página web.</p>
-                </div>
-            </section>
-            <!-- La cuadrícula se adapta con CSS a ordenador, tableta y móvil. -->
-            <section class="section gallery-section" aria-labelledby="titulo-galeria">
-                <div class="container">
-                    <div class="gallery-heading">
-                        <h2 id="titulo-galeria">Seis propuestas, distintos enfoques.</h2>
-                        <p>Diseños de muestra · Sin clientes reales</p>
-                    </div>
-                    <div class="portfolio-grid">
-                        <article class="project-card" id="cafeteria">
-                            <a class="project-image" href="img/proyecto-cafeteria.svg" target="_blank" rel="noopener" aria-label="Ampliar diseño Una pausa, un café, nueva pestaña"><img src="img/proyecto-cafeteria.svg" alt="Diseño de cafetería con presentación, carta y tonos cálidos" width="900" height="640"></a>
-                            <div class="project-caption">
-                                <div>
-                                    <p>01 / Página de presentación</p>
-                                    <h2>Una pausa, un café</h2>
-                                </div>
-                                <span aria-hidden="true">↗</span>
-                            </div>
-                            <p class="project-description">Presentación de una cafetería ficticia: jerarquía de títulos, contraste y una distribución clara del contenido.</p>
-                        </article>
-                        <article class="project-card" id="estudio">
-                            <a class="project-image" href="img/proyecto-estudio.svg" target="_blank" rel="noopener" aria-label="Ampliar diseño Estudio Forma, nueva pestaña"><img src="img/proyecto-estudio.svg" alt="Diseño para estudio creativo con formas geométricas y bloques de contenido" width="900" height="640"></a>
-                            <div class="project-caption">
-                                <div>
-                                    <p>02 / Composición visual</p>
-                                    <h2>Estudio Forma</h2>
-                                </div>
-                                <span aria-hidden="true">↗</span>
-                            </div>
-                            <p class="project-description">Una composición para practicar alineaciones, espacios y el uso de una paleta de tres colores.</p>
-                        </article>
-                        <article class="project-card" id="galeria">
-                            <a class="project-image" href="img/proyecto-galeria.svg" target="_blank" rel="noopener" aria-label="Ampliar diseño Miradas en orden, nueva pestaña"><img src="img/proyecto-galeria.svg" alt="Galería de imágenes con miniaturas colocadas en filas y columnas" width="900" height="640" loading="lazy"></a>
-                            <div class="project-caption">
-                                <div>
-                                    <p>03 / Cuadrícula de imágenes</p>
-                                    <h2>Miradas en orden</h2>
-                                </div>
-                                <span aria-hidden="true">↗</span>
-                            </div>
-                            <p class="project-description">Una galería centrada en el ritmo visual de las imágenes, sus proporciones y la separación entre elementos.</p>
-                        </article>
-                        <article class="project-card" id="viajes">
-                            <a class="project-image" href="img/proyecto-viajes.svg" target="_blank" rel="noopener" aria-label="Ampliar diseño Próxima parada, nueva pestaña"><img src="img/proyecto-viajes.svg" alt="Propuesta de página de viajes con paisaje ilustrado y tarjetas de destinos" width="900" height="640" loading="lazy"></a>
-                            <div class="project-caption">
-                                <div>
-                                    <p>04 / Contenido y navegación</p>
-                                    <h2>Próxima parada</h2>
-                                </div>
-                                <span aria-hidden="true">↗</span>
-                            </div>
-                            <p class="project-description">Una propuesta de viajes para combinar una imagen principal, llamadas a la acción y contenido por secciones.</p>
-                        </article>
-                        <article class="project-card" id="editorial">
-                            <a class="project-image" href="img/proyecto-editorial.svg" target="_blank" rel="noopener" aria-label="Ampliar diseño Entre líneas, nueva pestaña"><img src="img/proyecto-editorial.svg" alt="Diseño editorial con un titular destacado y columnas de lectura" width="900" height="640" loading="lazy"></a>
-                            <div class="project-caption">
-                                <div>
-                                    <p>05 / Tipografía y lectura</p>
-                                    <h2>Entre líneas</h2>
-                                </div>
-                                <span aria-hidden="true">↗</span>
-                            </div>
-                            <p class="project-description">Un ejercicio de jerarquía tipográfica, anchura de lectura y distribución de texto en una página editorial.</p>
-                        </article>
-                        <article class="project-card" id="formulario">
-                            <a class="project-image" href="img/proyecto-formulario.svg" target="_blank" rel="noopener" aria-label="Ampliar diseño Hablemos de tu idea, nueva pestaña"><img src="img/proyecto-formulario.svg" alt="Propuesta de formulario con campos etiquetados y botón de envío" width="900" height="640" loading="lazy"></a>
-                            <div class="project-caption">
-                                <div>
-                                    <p>06 / Formularios HTML5</p>
-                                    <h2>Hablemos de tu idea</h2>
-                                </div>
-                                <span aria-hidden="true">↗</span>
-                            </div>
-                            <p class="project-description">Una composición para practicar etiquetas, campos obligatorios y presentación de formularios.</p>
-                        </article>
-                    </div>
-                    <div class="closing-line">
-                        <p>Puedes plantear una propuesta en el formulario de presupuesto.</p>
-                        <a class="button" href="presupuesto.html">Cuéntame tu idea <span aria-hidden="true">↗</span></a>
-                    </div>
-                </div>
-            </section>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="portfolio.html" class="activo" aria-current="page">Portafolio</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Mis ejercicios</h2>
+            <p>Estos son algunos ejemplos de lo que estoy practicando con HTML y CSS. Pulsa en una imagen si quieres verla más grande.</p>
+
+            <!-- Los bloques inline-block forman dos columnas. -->
+            <div class="galeria">
+                <article class="trabajo">
+                    <a href="img/ejercicio-tabla.png" target="_blank" rel="noopener"><img src="img/ejercicio-tabla.png" alt="Ejemplo de una tabla con vehículos, tipos y precios" width="600" height="380"></a>
+                    <h3>Tabla de vehículos</h3>
+                    <p>Una tabla con varias filas y columnas para ordenar la información.</p>
+                </article>
+
+                <article class="trabajo">
+                    <a href="img/ejercicio-listas.png" target="_blank" rel="noopener"><img src="img/ejercicio-listas.png" alt="Ejemplo de listas ordenadas y desordenadas" width="600" height="380"></a>
+                    <h3>Listas de contenidos</h3>
+                    <p>Ejemplos de listas con números y con viñetas.</p>
+                </article>
+
+                <article class="trabajo">
+                    <a href="img/ejercicio-textos.png" target="_blank" rel="noopener"><img src="img/ejercicio-textos.png" alt="Ejemplo de títulos y párrafos con diferentes estilos" width="600" height="380"></a>
+                    <h3>Estilos de texto</h3>
+                    <p>Práctica de tamaños de letra, colores y alineación de párrafos.</p>
+                </article>
+
+                <article class="trabajo">
+                    <a href="img/ejercicio-bordes.png" target="_blank" rel="noopener"><img src="img/ejercicio-bordes.png" alt="Ejemplo de bordes continuo, punteado, discontinuo y doble" width="600" height="380"></a>
+                    <h3>Bordes con CSS</h3>
+                    <p>Cuatro tipos de borde aplicados a cajas sencillas.</p>
+                </article>
+            </div>
         </main>
-        <footer class="site-footer">
-            <div class="container footer-grid">
-                <div>
-                    <p class="footer-title">Jhojan Sebastian<span>.</span></p>
-                    <p>Diseño web · HTML y CSS</p>
-                    <p class="footer-note">Portafolio académico en construcción.</p>
-                </div>
-                <div>
-                    <p class="footer-title footer-small">Contacto de ejemplo</p>
-                    <p>Calle del Diseño, 12 · Madrid</p>
-                    <a href="mailto:jhojan@example.com">jhojan@example.com</a>
-                    <p class="footer-note">Datos ficticios para el ejercicio.</p>
-                </div>
-                <div>
-                    <p class="footer-title footer-small">En la red</p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram, página general en una nueva pestaña"><img src="img/instagram.svg" alt="" width="22" height="22"></a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn, página general en una nueva pestaña"><img src="img/linkedin.svg" alt="" width="22" height="22"></a>
-                        <a href="https://github.com/Shayan94108" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Jhojan, nueva pestaña"><img src="img/github.svg" alt="" width="22" height="22"></a>
-                    </div>
-                    <p class="footer-note">Instagram y LinkedIn enlazan a sus páginas generales.</p>
-                </div>
+
+        <!-- Pie de página: redes, dirección y aviso legal. -->
+        <footer>
+            <p><strong>Datos de contacto de ejemplo</strong></p>
+            <p>Calle del Diseño, 12, Madrid · jhojan@example.com</p>
+            <div class="redes">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="img/instagram.svg" alt="Instagram" width="24" height="24"></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="img/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>
+                <a href="https://github.com/Shayan94108" target="_blank" rel="noopener noreferrer"><img src="img/github.svg" alt="GitHub" width="24" height="24"></a>
             </div>
-            <div class="container footer-bottom">
-                <p>© 2026 Jhojan Sebastian · Proyecto de formación</p>
-                <div>
-                    <a href="contacto.html#aviso-legal">Aviso legal</a>
-                    <a href="contacto.html#privacidad">Política de privacidad</a>
-                </div>
-            </div>
+            <p><a href="contacto.html#aviso-legal">Aviso legal</a> | <a href="contacto.html#privacidad">Política de privacidad</a></p>
+            <p>Trabajo final de HTML/CSS · 2026</p>
         </footer>
-    </body>
+    </div>
+</body>
 </html>
