@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Práctica de una galería de imágenes</title>
+  <desc id="descripcion">Maqueta de una galería de composiciones geométricas en una cuadrícula de tres columnas.</desc>
+  <rect width="900" height="640" fill="#E4E9EC"/>
+  <rect x="48" y="54" width="804" height="532" rx="14" fill="#FFFFFF"/>
+  <path d="M62 54H838A14 14 0 0 1 852 68V92H48V68A14 14 0 0 1 62 54Z" fill="#132F3A"/>
+  <circle cx="70" cy="74" r="4" fill="#D8BB7B"/>
+  <circle cx="85" cy="74" r="4" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="100" cy="74" r="4" fill="#FFFFFF" opacity=".3"/>
+  <rect x="360" y="67" width="180" height="14" rx="7" fill="#FFFFFF" opacity=".12"/>
+  <g font-family="Arial, sans-serif" fill="#132F3A">
+    <text x="84" y="132" font-size="21" font-weight="700">ESTUDIO VISUAL</text>
+    <text x="652" y="130" font-size="12">Colección</text><text x="738" y="130" font-size="12">Sobre el proyecto</text>
+    <text x="84" y="190" font-family="Georgia, serif" font-size="36">Pequeñas perspectivas.</text>
+    <text x="84" y="219" font-size="13">Una colección de formas, equilibrio y color.</text>
+    <rect x="84" y="252" width="228" height="218" fill="#D8BB7B"/>
+    <path d="M120 470V356A78 78 0 0 1 276 356V470Z" fill="#FFFFFF"/>
+    <path d="M155 470V370A43 43 0 0 1 241 370V470Z" fill="#246B61"/>
+    <rect x="336" y="252" width="228" height="218" fill="#132F3A"/>
+    <circle cx="450" cy="361" r="77" fill="#D8BB7B"/>
+    <path d="M336 361H564V470H336Z" fill="#246B61"/>
+    <path d="M336 361H564" stroke="#FFFFFF" stroke-width="2"/>
+    <rect x="588" y="252" width="228" height="218" fill="#E9EFED"/>
+    <rect x="615" y="281" width="174" height="161" fill="#246B61"/>
+    <rect x="639" y="306" width="126" height="111" fill="#FFFFFF"/>
+    <rect x="664" y="330" width="76" height="63" fill="#D8BB7B"/>
+    <text x="84" y="498" font-size="13" font-weight="700">01 — Arcos</text>
+    <text x="336" y="498" font-size="13" font-weight="700">02 — Horizonte</text>
+    <text x="588" y="498" font-size="13" font-weight="700">03 — Encuadre</text>
+    <text x="84" y="550" font-size="11" letter-spacing="2">GALERÍA / EJERCICIO DE CUADRÍCULA</text>
+  </g>
+</svg>

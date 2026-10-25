@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Práctica de un formulario de contacto</title>
+  <desc id="descripcion">Maqueta de un formulario HTML5 con campos para nombre, correo y mensaje, y casilla de privacidad.</desc>
+  <rect width="900" height="640" fill="#E2E9E7"/>
+  <rect x="48" y="54" width="804" height="532" rx="14" fill="#FFFFFF"/>
+  <path d="M62 54H838A14 14 0 0 1 852 68V92H48V68A14 14 0 0 1 62 54Z" fill="#132F3A"/>
+  <circle cx="70" cy="74" r="4" fill="#D8BB7B"/>
+  <circle cx="85" cy="74" r="4" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="100" cy="74" r="4" fill="#FFFFFF" opacity=".3"/>
+  <rect x="360" y="67" width="180" height="14" rx="7" fill="#FFFFFF" opacity=".12"/>
+  <g font-family="Arial, sans-serif" fill="#132F3A">
+    <text x="84" y="132" font-size="21" font-weight="700">PUNTO DE ENCUENTRO</text>
+    <text x="682" y="130" font-size="12">El proyecto</text><text x="772" y="130" font-size="12">Contacto</text>
+    <rect x="84" y="166" width="280" height="381" fill="#246B61"/>
+    <text x="113" y="216" font-size="10" fill="#D8BB7B" letter-spacing="3">EMPEZAMOS AQUÍ</text>
+    <text x="111" y="273" font-family="Georgia, serif" font-size="35" fill="#FFFFFF">Hablemos</text>
+    <text x="111" y="315" font-family="Georgia, serif" font-size="35" fill="#FFFFFF">de tu idea.</text>
+    <text x="113" y="357" font-size="13" fill="#FFFFFF">Una primera conversación</text>
+    <text x="113" y="379" font-size="13" fill="#FFFFFF">para darle forma.</text>
+    <circle cx="267" cy="464" r="42" fill="#D8BB7B"/>
+    <path d="M244 464H290M277 451L290 464L277 477" fill="none" stroke="#132F3A" stroke-width="3"/>
+    <text x="408" y="196" font-size="12" font-weight="700">Nombre</text>
+    <rect x="408" y="210" width="365" height="39" rx="2" fill="#F1F4F3" stroke="#132F3A" stroke-opacity=".18"/>
+    <text x="422" y="235" font-size="12" fill="#246B61">Tu nombre</text>
+    <text x="408" y="278" font-size="12" font-weight="700">Correo electrónico</text>
+    <rect x="408" y="292" width="365" height="39" rx="2" fill="#F1F4F3" stroke="#132F3A" stroke-opacity=".18"/>
+    <text x="422" y="317" font-size="12" fill="#246B61">nombre@ejemplo.com</text>
+    <text x="408" y="360" font-size="12" font-weight="700">¿Qué te gustaría crear?</text>
+    <rect x="408" y="374" width="365" height="79" rx="2" fill="#F1F4F3" stroke="#132F3A" stroke-opacity=".18"/>
+    <path d="M423 395H678M423 412H613" stroke="#132F3A" stroke-width="4" opacity=".14"/>
+    <rect x="408" y="473" width="13" height="13" rx="2" fill="#FFFFFF" stroke="#246B61"/>
+    <path d="M411 479L415 483L420 476" fill="none" stroke="#246B61" stroke-width="2"/>
+    <text x="432" y="484" font-size="10">He leído la política de privacidad.</text>
+    <rect x="408" y="504" width="156" height="38" rx="2" fill="#132F3A"/>
+    <text x="443" y="528" font-size="12" fill="#FFFFFF">Enviar consulta</text>
+  </g>
+</svg>

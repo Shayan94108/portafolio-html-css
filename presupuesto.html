@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Formulario de presupuesto de prueba del portafolio de Jhojan Sebastian, estudiante de diseño web. Proyecto académico realizado con HTML5 y CSS3.">
+        <title>Presupuesto | Jhojan Sebastian · Diseño web</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <a class="skip-link" href="#contenido">Saltar al contenido</a>
+        <!-- Cabecera y navegación comunes a todas las páginas. -->
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="index.html" aria-label="Jhojan Sebastian, inicio">
+                <span class="brand-mark" aria-hidden="true">JS<span>.</span></span>
+                <span><span class="brand-name">Jhojan Sebastian</span><span class="brand-label">Diseño web</span></span>
+            </a>
+                <nav class="site-nav" aria-label="Navegación principal">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="portfolio.html">Portafolio</a></li>
+                        <li><a class="is-active" href="presupuesto.html" aria-current="page">Presupuesto</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="contenido">
+            <section class="page-intro">
+                <div class="container">
+                    <p class="eyebrow">Una idea, un primer paso</p>
+                    <h1>Hablemos de tu próxima web</h1>
+                    <p class="lead">Este formulario forma parte de mi portafolio de prácticas. Puedes completarlo con datos ficticios para comprobar cómo se valida una solicitud.</p>
+                </div>
+            </section>
+            <section class="section" aria-labelledby="titulo-formulario">
+                <div class="container two-column budget-layout">
+                    <div class="form-panel">
+                        <p class="section-kicker">Formulario de prueba</p>
+                        <h2 id="titulo-formulario">Cuéntame qué tienes en mente</h2>
+                        <p id="indicaciones-formulario" class="form-note">Todos los campos son obligatorios. Usa datos ficticios: esta demostración comprueba los campos y muestra los valores en la dirección de la página, pero no envía correos ni tramita presupuestos.</p>
+                        <!-- La validación se realiza con los atributos nativos de HTML5. -->
+                        <form action="presupuesto.html#solicitud-validada" method="get" aria-describedby="indicaciones-formulario">
+                            <div class="form-grid">
+                                <div class="field field-full">
+                                    <label for="nombre">Nombre</label>
+                                    <input id="nombre" name="nombre" type="text" autocomplete="name" minlength="2" maxlength="80" placeholder="Tu nombre de prueba" required>
+                                </div>
+                                <div class="field">
+                                    <label for="email">Email</label>
+                                    <input id="email" name="email" type="email" autocomplete="email" maxlength="120" placeholder="nombre@example.com" required>
+                                </div>
+                                <div class="field">
+                                    <label for="telefono">Teléfono</label>
+                                    <input id="telefono" name="telefono" type="tel" inputmode="numeric" autocomplete="tel" pattern="[0-9]{9}" minlength="9" maxlength="9" placeholder="600000000" title="Introduce un teléfono de 9 dígitos, sin espacios." aria-describedby="ayuda-telefono" required>
+                                    <p class="form-hint" id="ayuda-telefono">Introduce 9 dígitos, sin espacios ni prefijo.</p>
+                                </div>
+                                <div class="field field-full">
+                                    <label for="informacion">Solicite más información</label>
+                                    <textarea id="informacion" name="informacion" rows="6" minlength="10" maxlength="1500" placeholder="Describe la idea de tu página, su contenido o el estilo que te gustaría." aria-describedby="ayuda-informacion" required></textarea>
+                                    <p class="form-hint" id="ayuda-informacion">Entre 10 y 1500 caracteres.</p>
+                                </div>
+                                <div class="field-full checkbox-row">
+                                    <input id="aceptacion-privacidad" name="privacidad" type="checkbox" value="aceptada" required>
+                                    <label for="aceptacion-privacidad">He leído y acepto la <a href="contacto.html#privacidad">política de privacidad de esta demostración</a>.</label>
+                                </div>
+                                <div class="field-full form-actions">
+                                    <button class="button" type="submit">Validar solicitud de prueba</button>
+                                    <button class="button button-secondary" type="reset">Borrar campos</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- Se muestra mediante :target tras validar y navegar al destino. -->
+                        <section class="form-confirmation" id="solicitud-validada" aria-labelledby="titulo-confirmacion" tabindex="-1">
+                            <h2 id="titulo-confirmacion">Validación completada</h2>
+                            <p>Has llegado al destino de la solicitud de prueba. El navegador comprueba los campos antes de continuar con el formulario.</p>
+                            <p>Esta es una demostración académica: no se ha enviado ningún correo ni se ha gestionado un presupuesto.</p>
+                            <a href="presupuesto.html">Volver al formulario</a>
+                        </section>
+                    </div>
+                    <aside aria-labelledby="titulo-orientacion">
+                        <p class="section-kicker">Antes de empezar</p>
+                        <h2 id="titulo-orientacion">Dale forma a la idea</h2>
+                        <p>Una descripción sencilla ayuda a entender qué necesita una página. No hace falta tenerlo todo decidido.</p>
+                        <ul class="aside-list">
+                            <li>Qué quieres presentar y a quién te diriges.</li>
+                            <li>Qué secciones, textos e imágenes te gustaría incluir.</li>
+                            <li>Qué colores o referencias visuales te gustan.</li>
+                        </ul>
+                        <p>Estoy aprendiendo a transformar esas ideas en páginas claras con HTML y CSS.</p>
+                        <a class="button button-secondary" href="portfolio.html">Ver mis prácticas</a>
+                    </aside>
+                </div>
+            </section>
+        </main>
+        <!-- Pie común: datos ficticios, redes y acceso a los textos informativos. -->
+        <footer class="site-footer">
+            <div class="container footer-grid">
+                <div>
+                    <p class="footer-title">Jhojan Sebastian<span>.</span></p>
+                    <p>Diseño web · HTML y CSS</p>
+                    <p class="footer-note">Portafolio académico en construcción.</p>
+                </div>
+                <div>
+                    <p class="footer-title footer-small">Contacto de ejemplo</p>
+                    <p>Calle del Diseño, 12 · Madrid</p>
+                    <a href="mailto:jhojan@example.com">jhojan@example.com</a>
+                    <p class="footer-note">Datos ficticios para el ejercicio.</p>
+                </div>
+                <div>
+                    <p class="footer-title footer-small">En la red</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram, página general en una nueva pestaña"><img src="img/instagram.svg" alt="" width="22" height="22"></a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn, página general en una nueva pestaña"><img src="img/linkedin.svg" alt="" width="22" height="22"></a>
+                        <a href="https://github.com/Shayan94108" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Jhojan, nueva pestaña"><img src="img/github.svg" alt="" width="22" height="22"></a>
+                    </div>
+                    <p class="footer-note">Instagram y LinkedIn enlazan a sus páginas generales.</p>
+                </div>
+            </div>
+            <div class="container footer-bottom">
+                <p>© 2026 Jhojan Sebastian · Proyecto de formación</p>
+                <div>
+                    <a href="contacto.html#aviso-legal">Aviso legal</a>
+                    <a href="contacto.html#privacidad">Política de privacidad</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

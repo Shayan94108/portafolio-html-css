@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Práctica de una web de viajes</title>
+  <desc id="descripcion">Maqueta de una portada de viajes con paisaje vectorial de montañas, sol y tarjetas de rutas.</desc>
+  <rect width="900" height="640" fill="#DDE9E3"/>
+  <rect x="48" y="54" width="804" height="532" rx="14" fill="#FFFFFF"/>
+  <path d="M62 54H838A14 14 0 0 1 852 68V92H48V68A14 14 0 0 1 62 54Z" fill="#132F3A"/>
+  <circle cx="70" cy="74" r="4" fill="#D8BB7B"/>
+  <circle cx="85" cy="74" r="4" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="100" cy="74" r="4" fill="#FFFFFF" opacity=".3"/>
+  <rect x="360" y="67" width="180" height="14" rx="7" fill="#FFFFFF" opacity=".12"/>
+  <g font-family="Arial, sans-serif" fill="#132F3A">
+    <text x="84" y="132" font-size="21" font-weight="700" letter-spacing="2">RUMBO</text>
+    <text x="629" y="130" font-size="12">Destinos</text><text x="711" y="130" font-size="12">Las rutas</text><text x="786" y="130" font-size="12">Viajar</text>
+    <rect x="84" y="161" width="732" height="310" fill="#D8E5DF"/>
+    <circle cx="692" cy="238" r="47" fill="#D8BB7B"/>
+    <path d="M447 471L620 237L816 471Z" fill="#246B61"/>
+    <path d="M532 471L726 293L816 380V471Z" fill="#132F3A"/>
+    <path d="M580 291L620 237L665 291L643 280L619 288L604 276Z" fill="#FFFFFF"/>
+    <text x="115" y="211" font-size="11" letter-spacing="3">EXPLORAR SIN PRISA</text>
+    <text x="111" y="278" font-family="Georgia, serif" font-size="47">Rutas para</text>
+    <text x="111" y="332" font-family="Georgia, serif" font-size="47">desconectar.</text>
+    <text x="115" y="370" font-size="14">Un paisaje nuevo, otra forma de mirar.</text>
+    <rect x="115" y="399" width="142" height="39" rx="2" fill="#FFFFFF"/>
+    <text x="146" y="424" font-size="13">Ver las rutas</text>
+    <text x="84" y="516" font-size="13" font-weight="700">Costa</text><text x="336" y="516" font-size="13" font-weight="700">Montaña</text><text x="588" y="516" font-size="13" font-weight="700">Ciudad</text>
+    <path d="M84 535H300M336 535H552M588 535H804" stroke="#D8BB7B" stroke-width="5"/>
+    <text x="84" y="560" font-size="10" letter-spacing="2">DISEÑO DE PRÁCTICA / PÁGINA DE DESTINOS</text>
+  </g>
+</svg>

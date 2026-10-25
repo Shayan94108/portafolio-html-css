@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Práctica de una web para un estudio creativo</title>
+  <desc id="descripcion">Maqueta de un estudio creativo con tipografía grande, formas abstractas y una lista de servicios.</desc>
+  <rect width="900" height="640" fill="#D8E5DF"/>
+  <rect x="48" y="54" width="804" height="532" rx="14" fill="#FFFFFF"/>
+  <path d="M62 54H838A14 14 0 0 1 852 68V92H48V68A14 14 0 0 1 62 54Z" fill="#132F3A"/>
+  <circle cx="70" cy="74" r="4" fill="#D8BB7B"/>
+  <circle cx="85" cy="74" r="4" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="100" cy="74" r="4" fill="#FFFFFF" opacity=".3"/>
+  <rect x="360" y="67" width="180" height="14" rx="7" fill="#FFFFFF" opacity=".12"/>
+  <g font-family="Arial, sans-serif" fill="#132F3A">
+    <text x="84" y="132" font-size="21" font-weight="700">FORMA.</text>
+    <text x="610" y="130" font-size="12">Proyectos</text><text x="697" y="130" font-size="12">Estudio</text><text x="770" y="130" font-size="12">Contacto</text>
+    <text x="84" y="195" font-size="11" letter-spacing="3">EXPLORACIÓN VISUAL</text>
+    <text x="80" y="268" font-size="62" font-weight="700" letter-spacing="-3">Diseño con</text>
+    <text x="80" y="335" font-size="62" font-weight="700" letter-spacing="-3">propósito.</text>
+    <path d="M84 362H397" stroke="#D8BB7B" stroke-width="6"/>
+    <text x="84" y="400" font-size="14">Ideas claras. Formas sencillas.</text>
+    <text x="84" y="422" font-size="14">Una propuesta de identidad digital.</text>
+    <path d="M84 462H204" stroke="#132F3A" stroke-width="2"/><path d="M196 454L204 462L196 470" fill="none" stroke="#132F3A" stroke-width="2"/>
+    <rect x="547" y="178" width="242" height="288" fill="#E9EFED"/>
+    <path d="M560 453V313A113 113 0 0 1 786 313V453Z" fill="#246B61"/>
+    <circle cx="676" cy="273" r="76" fill="#D8BB7B"/>
+    <rect x="560" y="367" width="226" height="86" fill="#132F3A"/>
+    <path d="M565 367L675 257L785 367Z" fill="#FFFFFF"/>
+    <path d="M84 505H816" stroke="#132F3A" opacity=".15"/>
+    <text x="84" y="537" font-size="12">01 / Identidad</text><text x="329" y="537" font-size="12">02 / Web</text><text x="574" y="537" font-size="12">03 / Composición</text>
+  </g>
+</svg>
